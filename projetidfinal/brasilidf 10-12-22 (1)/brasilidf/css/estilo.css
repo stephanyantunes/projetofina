@@ -1,0 +1,165 @@
+#menu {
+    background-color: #75cfff;
+    height: 100px;
+    width: 100%;
+    border-radius: 2px;
+    padding: 1px 00px; 
+}
+a:hover {
+    text-decoration: none;
+    background-color: #b4ff8b;
+    color: black; 
+    padding: 5px;
+    text-decoration: underline;
+}
+body {
+    background-color:#c8f1ea;
+    text-align:left;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+}
+*{
+    margin:0%;
+    padding: 0;
+    box-sizing: border-box; 
+}
+.items{
+    
+    width: 180px;
+    height: 145px;
+    margin: 3px;
+}
+.container{
+    width: 48%;
+    display:flex;
+    flex-direction:row;
+    height: 155px;
+    background-color:#ffe347;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#um{
+    order: 1;
+   
+}
+#dois{
+    order: 2;
+    
+}
+#três{
+    order: 3;
+   
+}
+.texto {
+    font-family: Verdana,Tahoma, sans-serif;
+    font-size: 13px;
+    text-align: left;
+    justify-content: left;
+}
+#rodape{
+    clear: both;
+    text-align: center;
+    background-color: #75cfff;
+    height: 45px;
+    width: 100%;
+    margin: auto;
+    padding: 5x ;
+    border-radius: 5px;
+   
+}
+#principal {
+    float: center;
+    height: 100%;
+    width: 60%;
+    margin: 5px;
+    padding: 10px 10px;
+    text-align: left;
+    border-radius: 5px;
+}
+.container2 {
+    width: max-content;
+    display:flex;
+    flex-direction:row;
+    height:max-content;
+    background-color:#ffe347;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container3{
+    width: 300px;
+    display:flex;
+    flex-direction:row;
+    height: 210px;
+    background-color:#b4ff8b;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+a:link {
+    float: center;
+    padding: 10px 15px;
+    color: rgb(0, 0, 0);
+}
+#lateral {
+    width: 300px;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 10px;
+    float: right;
+    padding: 10px 10px;
+    min-height: auto;
+    background-color: #b4ff8b;
+    font-size: 15px;
+    height: min-content;          
+}
+#lateral2 {
+    width: 300px;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 10px;
+    float: right;
+    padding: 10px 10px;
+    min-height: auto;
+    background-color: #ffe347;
+    font-size: 15px;
+    height: min-content;          
+}
+#lateral2 img {
+    width: 80%;
+    height: 170px;
+    border-radius: 5px;
+}
+#lateral3 {
+    width: 300px;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 10px;
+    float: right;
+    padding: 10px 10px;
+    min-height: auto;
+    background-color: #ffe347;
+    font-size: 15px;
+    height: min-content;          
+}
+#lateral3 img {
+    width: 80%;
+    height: 170px;
+    border-radius: 5px;
+}
+#lateral4 {
+    width: 300px;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 10px;
+    float: right;
+    padding: 10px 10px;
+    min-height: auto;
+    background-color: #ffe347;
+    font-size: 15px;
+    height: min-content;          
+}
+#lateral4 img {
+    width: 80%;
+    height: 170px;
+    border-radius: 5px;
+}
